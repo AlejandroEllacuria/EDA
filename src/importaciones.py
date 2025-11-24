@@ -1,8 +1,15 @@
 #!pip install folium
+#!pip install geopandas
+#!pip install plotly
+
+# ============================================================
+# IMPORTS NECESARIOS
+# ============================================================
 import numpy as np
 import pandas as pd
-from pprint import pprint
 import matplotlib.pyplot as plt
 import seaborn as sns
-from IPython.display import display
-import folium
+import plotly.express as px
+import requests
+
+

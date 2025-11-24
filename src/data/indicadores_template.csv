@@ -1,0 +1,88 @@
+country,iso_alpha2,iso_alpha3,population_indicator,gdp_nominal,gdp_per_capita_indicator,inflation,region,subregion,flag_emoji
+Albania,AL,ALB,,,,,,,🇦🇱
+Argentina,AR,ARG,,,,,,,🇦🇷
+Armenia,AM,ARM,,,,,,,🇦🇲
+Australia,AU,AUS,,,,,,,🇦🇺
+Austria,AT,AUT,,,,,,,🇦🇹
+Azerbaijan,AZ,AZE,,,,,,,🇦🇿
+Bahamas,BS,BHS,,,,,,,🇧🇸
+Belarus,BY,BLR,,,,,,,🇧🇾
+Belgium,BE,BEL,,,,,,,🇧🇪
+Belize,BZ,BLZ,,,,,,,🇧🇿
+Bosnia and Herzegovina,BA,BIH,,,,,,,🇧🇦
+Brazil,BR,BRA,,,,,,,🇧🇷
+Bulgaria,BG,BGR,,,,,,,🇧🇬
+Cabo Verde,CV,CPV,,,,,,,🇨🇻
+Canada,CA,CAN,,,,,,,🇨🇦
+Chile,CL,CHL,,,,,,,🇨🇱
+Colombia,CO,COL,,,,,,,🇨🇴
+Costa Rica,CR,CRI,,,,,,,🇨🇷
+Croatia,HR,HRV,,,,,,,🇭🇷
+Cuba,CU,CUB,,,,,,,🇨🇺
+Cyprus,CY,CYP,,,,,,,🇨🇾
+Czech Republic,CZ,CZE,,,,,,,🇨🇿
+Denmark,DK,DNK,,,,,,,🇩🇰
+Ecuador,EC,ECU,,,,,,,🇪🇨
+El Salvador,SV,SLV,,,,,,,🇸🇻
+Estonia,EE,EST,,,,,,,🇪🇪
+Fiji,FJ,FJI,,,,,,,🇫🇯
+Finland,FI,FIN,,,,,,,🇫🇮
+France,FR,FRA,,,,,,,🇫🇷
+Georgia,GE,GEO,,,,,,,🇬🇪
+Germany,DE,DEU,,,,,,,🇩🇪
+Greece,GR,GRC,,,,,,,🇬🇷
+Guatemala,GT,GTM,,,,,,,🇬🇹
+Guyana,GY,GUY,,,,,,,🇬🇾
+Hungary,HU,HUN,,,,,,,🇭🇺
+Iceland,IS,ISL,,,,,,,🇮🇸
+Ireland,IE,IRL,,,,,,,🇮🇪
+Israel,IL,ISR,,,,,,,🇮🇱
+Italy,IT,ITA,,,,,,,🇮🇹
+Jamaica,JM,JAM,,,,,,,🇯🇲
+Japan,JP,JPN,,,,,,,🇯🇵
+Kazakhstan,KZ,KAZ,,,,,,,🇰🇿
+Kuwait,KW,KWT,,,,,,,🇰🇼
+Kyrgyzstan,KG,KGZ,,,,,,,🇰🇬
+Latvia,LV,LVA,,,,,,,🇱🇻
+Lithuania,LT,LTU,,,,,,,🇱🇹
+Luxembourg,LU,LUX,,,,,,,🇱🇺
+Macau,,,,,,,,,
+Malta,MT,MLT,,,,,,,🇲🇹
+Mexico,MX,MEX,,,,,,,🇲🇽
+Mongolia,MN,MNG,,,,,,,🇲🇳
+Montenegro,ME,MNE,,,,,,,🇲🇪
+Netherlands,NL,NLD,,,,,,,🇳🇱
+New Zealand,NZ,NZL,,,,,,,🇳🇿
+Nicaragua,NI,NIC,,,,,,,🇳🇮
+Norway,NO,NOR,,,,,,,🇳🇴
+Oman,OM,OMN,,,,,,,🇴🇲
+Panama,PA,PAN,,,,,,,🇵🇦
+Paraguay,PY,PRY,,,,,,,🇵🇾
+Philippines,PH,PHL,,,,,,,🇵🇭
+Poland,PL,POL,,,,,,,🇵🇱
+Portugal,PT,PRT,,,,,,,🇵🇹
+Puerto Rico,PR,PRI,,,,,,,🇵🇷
+Qatar,QA,QAT,,,,,,,🇶🇦
+Republic of Korea,,,,,,,,,
+Romania,RO,ROU,,,,,,,🇷🇴
+Russian Federation,RU,RUS,,,,,,,🇷🇺
+Saint Vincent and Grenadines,,,,,,,,,
+Serbia,RS,SRB,,,,,,,🇷🇸
+Slovakia,SK,SVK,,,,,,,🇸🇰
+Slovenia,SI,SVN,,,,,,,🇸🇮
+South Africa,ZA,ZAF,,,,,,,🇿🇦
+Spain,ES,ESP,,,,,,,🇪🇸
+Sri Lanka,LK,LKA,,,,,,,🇱🇰
+Suriname,SR,SUR,,,,,,,🇸🇷
+Sweden,SE,SWE,,,,,,,🇸🇪
+Switzerland,CH,CHE,,,,,,,🇨🇭
+Thailand,TH,THA,,,,,,,🇹🇭
+Trinidad and Tobago,TT,TTO,,,,,,,🇹🇹
+Turkey,TR,TUR,,,,,,,🇹🇷
+Turkmenistan,TM,TKM,,,,,,,🇹🇲
+Ukraine,UA,UKR,,,,,,,🇺🇦
+United Arab Emirates,AE,ARE,,,,,,,🇦🇪
+United Kingdom,GB,GBR,,,,,,,🇬🇧
+United States,US,USA,,,,,,,🇺🇸
+Uruguay,UY,URY,,,,,,,🇺🇾
+Uzbekistan,UZ,UZB,,,,,,,🇺🇿
