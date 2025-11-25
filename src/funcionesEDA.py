@@ -64,3 +64,91 @@ def enriquecer_csv_sin_wbgapi(ruta_csv_original, ruta_indicadores, ruta_salida=N
         df_final.to_csv(ruta_salida, index=False)
 
     return df_final
+
+def winsorize(series, lower=0.01, upper=0.99):
+    ql = series.quantile(lower)
+    qh = series.quantile(upper)
+    return series.clip(lower=ql, upper=qh)
+
+def get_flag(country_name):
+    try:
+        c = pycountry.countries.lookup(country_name)
+        code = c.alpha_2.upper()
+        return chr(127397 + ord(code[0])) + chr(127397 + ord(code[1]))
+    except:
+        return None
+
+# ============================================
+# 1) Distribución de registros por país
+# ============================================
+'''
+plt.figure(figsize=(14, 6))
+kills["pais"].value_counts().plot(kind="bar")
+plt.title("Registros por país en la muestra")
+plt.xlabel("País")
+plt.ylabel("Cantidad de registros")
+plt.tight_layout()
+plt.show()
+'''
+# ============================================
+# 2) Distribución de registros por año
+# ============================================
+'''
+plt.figure(figsize=(12, 4))
+kills["anio"].value_counts().sort_index().plot(kind="bar")
+plt.title("Distribución de registros por año")
+plt.xlabel("Año")
+plt.ylabel("Cantidad de registros")
+plt.tight_layout()
+plt.show()
+'''
+# ============================================
+# 3) Distribución por sexo
+# ============================================
+'''
+plt.figure(figsize=(6, 4))
+kills["sexo"].value_counts().plot(kind="bar")
+plt.title("Distribución por sexo")
+plt.xlabel("Sexo")
+plt.ylabel("Cantidad de registros")
+plt.tight_layout()
+plt.show()
+'''
+# ============================================
+# 4) Distribución por grupo de edad
+# ============================================
+'''
+plt.figure(figsize=(8, 4))
+kills["edad"].value_counts().plot(kind="bar")
+plt.title("Distribución por grupo de edad")
+plt.xlabel("Grupo de edad")
+plt.ylabel("Cantidad de registros")
+plt.tight_layout()
+plt.show()
+'''
+# ============================================
+# 5) Distribución por generación
+# ============================================
+'''
+plt.figure(figsize=(10, 4))
+kills["generacion"].value_counts().plot(kind="bar")
+plt.title("Distribución por generación")
+plt.xlabel("Generación")
+plt.ylabel("Cantidad de registros")
+plt.tight_layout()
+plt.show()
+'''
+
+
+# ============================================
+# Resumen de valores faltantes
+# ============================================
+""" print("--- Revisión de Valores Faltantes ---")
+resumen_faltantes = pd.DataFrame({
+    'Total Faltantes': kills.isnull().sum(),
+    'Porcentaje (%)': (kills.isnull().sum() / len(kills) * 100).round(2)
+})
+print(resumen_faltantes[resumen_faltantes['Total Faltantes'] > 0])
+print("-" * 40) """
+
+'''

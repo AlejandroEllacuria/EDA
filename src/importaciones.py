@@ -1,7 +1,7 @@
 #!pip install folium
 #!pip install geopandas
 #!pip install plotly
-
+#!pip install pycountry
 # ============================================================
 # IMPORTS NECESARIOS
 # ============================================================
@@ -11,5 +11,5 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import requests
-
+import os
 
