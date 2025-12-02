@@ -151,4 +151,34 @@ resumen_faltantes = pd.DataFrame({
 print(resumen_faltantes[resumen_faltantes['Total Faltantes'] > 0])
 print("-" * 40) """
 
+
+# --------------------------------------------------------------
+#  Gráfico simple: temperatura vs suicidios
+# --------------------------------------------------------------
+'''
+if "temperature_celsius" in df.columns and tasa_col in df.columns:
+    df_temp = df[["temperature_celsius", tasa_col]].dropna()
+
+    plt.figure(figsize=(8,5))
+    sns.scatterplot(
+        data=df_temp,
+        x="temperature_celsius",
+        y=tasa_col,
+        alpha=0.5,
+        color=reds[3]
+    )
+    sns.regplot(
+        data=df_temp,
+        x="temperature_celsius",
+        y=tasa_col,
+        scatter=False,
+        color="black",
+        line_kws={"linewidth":2}
+    )
+    plt.title("Relación entre temperatura y tasa de suicidios")
+    plt.xlabel("Temperatura media (°C)")
+    plt.ylabel("Suicidios por 100k habitantes")
+    plt.tight_layout()
+    plt.show()
+
 '''
